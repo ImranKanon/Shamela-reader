@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shamela Reader App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="controls">
+    <span><strong>Shamela Reader</strong></span>
+    <div>
+      <button onclick="saveCurrentPage()">📌 Save Page</button>
+      <button onclick="loadSavedPage()">📂 Load Saved</button>
+    </div>
+  </div>
+
+  <iframe id="shamelaFrame" src="https://shamela.ws"></iframe>
+
+  <script src="script.js"></script>
+</body>
+</html>
